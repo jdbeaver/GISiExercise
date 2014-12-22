@@ -1,0 +1,12 @@
+﻿<Window x:Class="GISiExercise_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Normalize Longitude" Height="155" Width="380">
+    <Grid>
+        <Button Name="normalizeButton" Content="Find Normalized Longitude" Click="normalizeButton_Click" HorizontalAlignment="Left" Margin="160,26,0,0" VerticalAlignment="Top" Width="162"/>
+        <Label Content="(enter longitude in decimal degrees. e.g.: -220.55)" HorizontalAlignment="Left" Margin="24,54,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="26,26,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="28,87,0,0" VerticalAlignment="Top" Width="291"/>
+
+    </Grid>
+</Window>
